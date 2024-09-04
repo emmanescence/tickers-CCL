@@ -13,7 +13,7 @@ st.title('Evolución de Precio Ajustado por CCL (usando el CCL de GGAL) - www.x.
 # Entradas del usuario
 fecha_inicio = st.date_input('Fecha de inicio', value=pd.to_datetime('2023-01-01'))
 fecha_fin = st.date_input('Fecha de fin', value=pd.to_datetime('2024-08-31'))
-tickers_adicionales = st.multiselect('Tickers a analizar (ej. METR.BA, PAMP.BA)', ['METR.BA'])
+tickers_adicionales = st.multiselect('Tickers a analizar (ej. METR.BA, PAMP.BA)')
 
 # Tickers y ratio de conversión predefinidos
 ticker_ar = 'GGAL.BA'  # Ticker en Argentina

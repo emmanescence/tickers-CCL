@@ -8,7 +8,7 @@ def calcular_ccl(cot_ar, cot_usd, ratio_conversion):
     return (cot_ar * ratio_conversion) / cot_usd
 
 # Configuración de la aplicación Streamlit
-st.title('Evolución de Precio Ajustado por CCL (usando el CCL de GGAL) - @iteAR_eco')
+st.title('Evolución de Precio Ajustado por CCL (usando el CCL de GGAL) - x.com/@iteAR_eco')
 
 # Entradas del usuario
 fecha_inicio = st.date_input('Fecha de inicio', value=pd.to_datetime('2023-01-01'))
